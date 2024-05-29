@@ -105,7 +105,7 @@ elif result.retcode != mt5.TRADE_RETCODE_DONE:
     print("Detailed order result:")
     print(result)
 else:
-    print("Order placed successfully, order ticket =", result.order)
+    print("Order placed successfully, order ticket number =", result.order)
 
 # Shutdown connection to MT5
 mt5.shutdown()
